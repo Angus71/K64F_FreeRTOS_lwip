@@ -1,0 +1,11 @@
+/*.g_c
+/*.g_x
+/*.cwGeneratedFileSetLog
+/Generated_Code
+/Documentation
+/Static_Code
+/Debug
+/ProjectInfo.xml
+/SDK
+*.bak
+
