@@ -3,7 +3,7 @@
   <Header>
     <Name>K64F_FreeRTOS_lwip</Name>
     <SavedBy>fbargste</SavedBy>
-    <ModificationStamp>3</ModificationStamp>
+    <ModificationStamp>4</ModificationStamp>
     <Date>2015-09-29</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.1.RT7_b1531-0480</PEversion>
@@ -6271,12 +6271,12 @@
         <ItemSymbol>InitClockConfigSel</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>clockMan1_InitConfig4</Value>
+        <Value>clockMan1_InitConfig1</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>InitClockConfigSelNum</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>4</Value>
+        <Value>1</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
@@ -22620,48 +22620,40 @@
               <ReadOnly>true</ReadOnly>
               <UserReadOnly>true</UserReadOnly>
               <Value>fsl_lptmr_hal1</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>PeriphDevice</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
               <Value />
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <SharedPrphMode>false</SharedPrphMode>
             </ItemState>
             <ItemState>
               <ItemSymbol>CompVersion</ItemSymbol>
               <Value>1.2.0</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>VersionSpecificItem</ItemSymbol>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <ListItemCount>1</ListItemCount>
             </ItemState>
             <ItemState>
               <ItemSymbol>DefaultMainProperty</ItemSymbol>
               <Value>load sdk verison failed</Value>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
           </Properties>
           <Methods>
             <ItemState>
               <ItemSymbol>SdkSpecificMethods</ItemSymbol>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <ListItemCount>1</ListItemCount>
             </ItemState>
             <ItemState>
               <ItemSymbol>fsl_lptmr_halgroup</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Enable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22671,7 +22663,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Disable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22681,7 +22672,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_ClearIntFlag</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22691,7 +22681,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_IsIntPending</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22701,7 +22690,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetIntCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22711,7 +22699,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetTimerWorkingMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22721,7 +22708,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetPrescalerMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22731,7 +22717,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_SetCompareValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22741,7 +22726,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_GetCompareValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22751,7 +22735,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_GetCounterValue</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -22761,7 +22744,6 @@
             <ItemState>
               <ItemSymbol>LPTMR_HAL_Init</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
